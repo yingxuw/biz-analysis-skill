@@ -19,27 +19,9 @@
 - `EXAMPLES/` — 成功案例参考
 - `CHECKLIST.md` — 输出核验清单
 
-## 🚀 快速开始
+### 2. 按模板提供信息
 
-### 1. 复制 Skill 文件
-
-将 `SKILL.md` 复制到你的 Obsidian vault 的 `.claude/skills/` 目录下：
-
-```bash
-cp SKILL.md ~/Documents/Obsidian\ Vault/.claude/skills/biz-analysis/
-```
-
-### 2. 在 Obsidian 中调用
-
-在任意笔记中，使用 @ 引用：
-
-```
-@.claude/skills/biz-analysis/SKILL.md 帮我分析一下 [业务名称] 的 [核心问题]
-```
-
-### 3. 按模板提供信息
-
-为了让 AI 给出精准分析，请按模板提供背景、目标、约束等信息（见 `TEMPLATE.md`）。
+为了让 AI 给出精准分析，请按模板提供背景、目标、约束等信息（见 `TEMPLATE.md`），或者直接开始对话。
 
 ## 📋 核心框架
 
@@ -61,7 +43,7 @@ cp SKILL.md ~/Documents/Obsidian\ Vault/.claude/skills/biz-analysis/
   2. 效果对比（好的 vs 差的，各3个，有根因）
   3. 规律提炼（铁律/可复用规则）
   4. 竞品对标（至少3个竞品，聚焦"我们能学什么"）
-  5. ��户分层（不同用户群的差异化策略）
+  5. 用户分层（不同用户群的差异化策略）
   6. 可执行优先级（本周/2-4周/1-3个月）
 
 第四步：迭代循环（质疑清单）
@@ -97,48 +79,6 @@ cp SKILL.md ~/Documents/Obsidian\ Vault/.claude/skills/biz-analysis/
 - 至少3个竞品的实际数据
 - 聚焦"我们能学什么"，而不是"他们在做什么"
 
-## 📖 使用示例
-
-### 示例1：天天练活动策略分析
-
-```markdown
-@.claude/skills/biz-analysis/SKILL.md 帮我分析天天练活动策略
-
-背景：
-- 产品：天天练（K12学习产品）
-- 核心变现：活动付费（付费率约4%）
-- 核心变量：皮肤（用户喜好直接决定付费）
-- 当前卡点：活动参与率连续2周下降10%
-
-目标：
-1. 找到活动参与率下降的根本原因
-2. 提出可落地的提升方案（3个月内提升20%）
-3. 沉淀可复用的活动设计checklist
-
-材料：
-- 已提供：活动数据看板截图、用户反馈文档
-
-约束：
-- 活动预算有限，不能大规模增加奖励
-- 需保持现有活动节奏（每周1-2个活动）
-```
-
-**输出**：基于6份文档，2天产出的深度分析报告（见 `EXAMPLES/`）。
-
-### 示例2：新业务调研
-
-```markdown
-@.claude/skills/biz-analysis/SKILL.md 帮我分析UGC地图生态
-
-背景：
-- 产品：天天练UGC地图
-- 核心KPI：人均地图时长（当前180s）
-- 问题：新图进入热图的转化率仅15%
-
-目标：
-1. 优化新图发现机制，提升转化率至30%
-2. 沉淀创作者激励SOP
-```
 
 ## 🔄 迭代流程
 
@@ -148,11 +88,6 @@ cp SKILL.md ~/Documents/Obsidian\ Vault/.claude/skills/biz-analysis/
 
 **关键**：第一稿出来后，**不要直接用**。按质疑清单逐条问 AI，补充数据，迭代至少一轮。
 
-## 📚 相关资源
-
-- 成功案例：[活动策略分析报告](examples/活动策略分析报告.md)
-- 快速模板：`TEMPLATE.md`
-- 核验清单：`CHECKLIST.md`
 
 ## 🤝 贡献
 
@@ -162,8 +97,3 @@ cp SKILL.md ~/Documents/Obsidian\ Vault/.claude/skills/biz-analysis/
 
 MIT License — 自由使用、修改、分发。
 
----
-
-**准备好开始分析了吗？** 将 `SKILL.md` 复制到你的 Obsidian vault，然后按模板提供信息即可。
-
-**问题？** 开一个 [GitHub Issue](https://github.com/your-org/biz-analysis-skill/issues)。
